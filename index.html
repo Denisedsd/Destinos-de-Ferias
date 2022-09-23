@@ -10,8 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet" />
   </head>  
   <body>
+    <script src="app.js"> </script>
     <header class="header">
-      <img class="logo" src="C:\Users\pc\Desktop\Mentoria\imagens\carimbo.jpg">
+      <img class="logo" src="carimbo.jpg"/>
       <nave class="menu">
         <ul>
           <li>Home</li>
@@ -23,9 +24,9 @@
     <h1> Melhores destinos de Férias </h1>
 
     <section class="destinos">
-      <img src="file:C:\Users\pc\Desktop\Mentoria\imagens\praia.jpg" alt="Praia" />
-      <img src="C:\Users\pc\Desktop\Mentoria\imagens\serra.jpg" alt="Serra" />
-      <img src="C:\Users\pc\Desktop\Mentoria\imagens\EcoturismoUruguai.jpg" alt="Ecoturismo" />
+      <img src="praia.jpg" alt="Praia" />
+      <img src="serra.jpg" alt="Serra" />
+      <img src="EcoturismoUruguai.jpg" alt="Ecoturismo" />
     </section>
     
       <section class="opcoes">
@@ -40,9 +41,13 @@
       <button onclick="votopraia()">Praia</button>    
       <button onclick="votoserra()">Serra</button>
       <button onclick="votoeco()">Ecoturismo</button>
-      
-
+      <h3 id="resultadopraia"></h3>
+      <h3 id="resultadoserra"></h3>
+      <h3 id="resultadoeco"></h3>
     </div>
+
+
   
+ 
    </body>
 </html>
